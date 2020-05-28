@@ -1,0 +1,358 @@
+$default-white: #fff;
+$foogy-white: #8f8f8f;
+$primary-color: rgb(255, 187, 0);
+
+*{font-family: 'Questrial', sans-serif;}
+
+.header-blur{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.664);
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background: url('https://shatnews.com/wp-content/uploads/2018/08/how-interior-design-affects-mood-home-with-the-haworths.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-bootom-contact-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.198);
+    padding: 0 20px;
+    a{
+        font-size: 13px;
+        color: $default-white;
+        margin-left: 35px;
+    }
+}
+
+.header-topbanner-1-grid{
+    :first-child{
+        margin-left: 0;
+    }
+}
+
+.header-topbanner-socnetcon{
+    img{
+        height: 20px;
+    }
+}
+
+.header-navigation{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+    .responsive-menu-icon{
+        display: none;
+    }
+
+.responsive-icon-rotate{
+    transform: rotate(180deg);
+    transition: .3s;
+}
+
+.responsive-menu-hidden{
+    display: inline-block;
+}
+
+.header-nav-lists{
+    a{
+        margin-right: 40px;
+        color:$default-white ;
+        font-size: 13px;
+    }
+    :last-child{
+        margin-right: 0;
+    }
+}
+
+.header-banner{
+    margin-top: 25%;
+}
+
+.header-title{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    h1{
+        color: $default-white;
+        font-size: 40px;
+    }
+    p{
+        color: $foogy-white;
+        margin: 30px 0;
+    }
+    a{
+        padding: 15px 30px;
+        color: white;
+        background: $primary-color;
+        border-radius: 5px;
+    }
+}
+
+#products-section{
+    background: rgb(231, 248, 238);
+}
+
+// .products-items-title{
+//     width: 60%;
+//     h1{
+//         font-size: 30px;
+//     }
+//     p{
+//         color: $foogy-white;
+//         font-weight: 400;   
+//         font-size: 13px;
+//     }
+//     margin: auto;
+//     padding: 80px 0 40px 0;
+//     text-align: center;
+// }
+
+.product-item-title{
+    margin-top: 20px;
+    h5{
+        font-size: 17px;
+    }
+    p{
+        font-size: 13px;
+        color: $foogy-white;
+    }
+}
+.grid{
+    width: 100%;
+    // border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.product-item-img{
+    width: 100%;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+#gallery-section{
+    padding-top: 80px;
+    background: #e7f8ee;
+}
+
+.product-items-gallery{
+    // display: flex;
+    // justify-content: space-between;
+    .col-lg-3{
+        padding: 0;
+    }
+}
+.gallery-item{
+    // width: 25%;
+    height: 350px;
+    background: blueviolet;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.our-features{
+    .col-lg-4{
+        padding: 20px;
+    }
+}
+
+.our-features-title{
+    width: 60%;
+    text-align: center;
+    margin: 100px auto 40px  auto;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        color: $foogy-white;
+        font-weight: 400;   
+        font-size: 13px;
+    }
+}
+
+.out-features__item{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #f5fff9;
+}
+
+.our-features-items-centered{
+    width: 80%;
+    height: 48%;
+    p{
+        font-size: 15px;
+        color: $foogy-white;
+    }
+}
+
+.feat-item-headline{
+    display: flex;
+    img{
+        height: 20px;
+    }
+    h5{
+        margin-left: 15px;
+    }
+}
+
+#suggestion-section{
+    margin-top: 80px;
+}
+
+.suggestion-img-cover{
+    width: 100%;
+    height: 450px;
+    // position: absolute;
+    background: url('https://images.unsplash.com/photo-1544582207-9bd1b74b1596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.suggestion-cover-blur{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    h1{
+        font-size: 35px;
+        color: white;
+        width: 80%;
+        margin: auto;
+        font-weight: 700;
+    }
+    p{
+        color: #efefef;
+        width: 60%;
+        margin: auto;
+        padding: 30px 0;
+        font-size: 13px;
+    }
+    a{
+        padding: 15px 30px;
+        color: white;
+        background: $primary-color;
+        border-radius: 5px;
+    }
+}
+
+#blog{
+    margin: 80px 0;
+    height: auto;
+}
+
+.blog-section-title{
+    width: fit-content;
+    margin: auto;
+}
+
+.plog-post-item{
+    width: 100%;
+    height: 400px;
+    h5{
+        font-weight: 700;
+        margin: 30px 0 20px 0;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+.blog-post-item-img{
+    width: 100%;
+    height: 250px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+.blog-post-item-activity{
+    margin: 17px 0;
+    :first-child{
+        background: $primary-color;
+        color: #fff;
+    }
+    :last-child:hover{
+        background: $primary-color;
+        transition: .3s;
+        color: white;
+    }
+    a{
+        color: white;
+        font-size: 14px;
+        padding: 5px 15px;
+        transition: .3s;
+        border-radius: 3px;
+        color: #000;
+    }
+}
+
+#footer{
+    background: #222;
+    padding: 100px 0;
+}
+
+.footer{
+    h5{
+        color: white;
+        font-weight: 700;
+    }
+    p{
+        color: $foogy-white;
+        font-size: 14px;
+    }
+    h6{
+        color: $primary-color;
+    }
+    input{
+        width: 200px;
+        border: 1px solid rgb(70, 70, 70);
+        background: none;
+        outline: none;
+        padding: 5px 10px;
+        border-radius: 3px 0 0 3px;
+    }
+    button{
+        border: 1px solid rgb(70, 70, 70);
+        padding: 5px 10px;
+        background: rgb(70, 70, 70);
+        color: $primary-color;
+        border-radius: 0 3px 3px 0;
+        outline: none;
+    }
+}
+.soc-newtwork-icons{
+    :first-child{
+        margin-left: 0;
+    }
+    img{
+        height: 15px;
+        margin-left: 13px;
+    }
+}

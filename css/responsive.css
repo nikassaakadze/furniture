@@ -1,0 +1,32 @@
+@media only screen and (max-width: 800px) {
+  .plog-post-item {
+    margin-top: 90px;
+  }
+  .our-features-title {
+    width: 100%;
+  }
+  .suggestion-cover-blur h1 {
+    width: 95%;
+    font-size: 25px;
+  }
+  .suggestion-cover-blur p {
+    width: 90%;
+  }
+  .responsive-menu-icon {
+    display: block;
+  }
+  .header-nav-lists :first-child {
+    display: none;
+  }
+  .footer-newsletter {
+    margin: 40px 0;
+  }
+  .header-navigation {
+    display: block;
+    text-align: center;
+  }
+  .header-logo {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

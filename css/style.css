@@ -1,0 +1,386 @@
+* {
+  font-family: 'Questrial', sans-serif;
+}
+
+.header-blur {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.664);
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background: url("https://shatnews.com/wp-content/uploads/2018/08/how-interior-design-affects-mood-home-with-the-haworths.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-bootom-contact-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.198);
+  padding: 0 20px;
+}
+
+.header-bootom-contact-banner a {
+  font-size: 13px;
+  color: #fff;
+  margin-left: 35px;
+}
+
+.header-topbanner-1-grid :first-child {
+  margin-left: 0;
+}
+
+.header-topbanner-socnetcon img {
+  height: 20px;
+}
+
+.header-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.responsive-menu-icon {
+  display: none;
+}
+
+.responsive-icon-rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.responsive-menu-hidden {
+  display: inline-block;
+}
+
+.header-nav-lists a {
+  margin-right: 40px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.header-nav-lists :last-child {
+  margin-right: 0;
+}
+
+.header-banner {
+  margin-top: 25%;
+}
+
+.header-title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.header-title h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.header-title p {
+  color: #8f8f8f;
+  margin: 30px 0;
+}
+
+.header-title a {
+  padding: 15px 30px;
+  color: white;
+  background: #ffbb00;
+  border-radius: 5px;
+}
+
+#products-section {
+  background: #e7f8ee;
+}
+
+.product-item-title {
+  margin-top: 20px;
+}
+
+.product-item-title h5 {
+  font-size: 17px;
+}
+
+.product-item-title p {
+  font-size: 13px;
+  color: #8f8f8f;
+}
+
+.grid {
+  width: 100%;
+}
+
+.product-item-img {
+  width: 100%;
+  height: 250px;
+  background: white;
+}
+
+.product-item-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#gallery-section {
+  padding-top: 80px;
+  background: #e7f8ee;
+}
+
+.product-items-gallery .col-lg-3 {
+  padding: 0;
+}
+
+.gallery-item {
+  height: 350px;
+  background: blueviolet;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.our-features .col-lg-4 {
+  padding: 20px;
+}
+
+.our-features-title {
+  width: 60%;
+  text-align: center;
+  margin: 100px auto 40px  auto;
+}
+
+.our-features-title h1 {
+  font-size: 30px;
+}
+
+.our-features-title p {
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.out-features__item {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #f5fff9;
+}
+
+.our-features-items-centered {
+  width: 80%;
+  height: 48%;
+}
+
+.our-features-items-centered p {
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
+.feat-item-headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feat-item-headline img {
+  height: 20px;
+}
+
+.feat-item-headline h5 {
+  margin-left: 15px;
+}
+
+#suggestion-section {
+  margin-top: 80px;
+}
+
+.suggestion-img-cover {
+  width: 100%;
+  height: 450px;
+  background: url("https://images.unsplash.com/photo-1544582207-9bd1b74b1596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.suggestion-cover-blur {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.suggestion-cover-blur h1 {
+  font-size: 35px;
+  color: white;
+  width: 80%;
+  margin: auto;
+  font-weight: 700;
+}
+
+.suggestion-cover-blur p {
+  color: #efefef;
+  width: 60%;
+  margin: auto;
+  padding: 30px 0;
+  font-size: 13px;
+}
+
+.suggestion-cover-blur a {
+  padding: 15px 30px;
+  color: white;
+  background: #ffbb00;
+  border-radius: 5px;
+}
+
+#blog {
+  margin: 80px 0;
+  height: auto;
+}
+
+.blog-section-title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.plog-post-item {
+  width: 100%;
+  height: 400px;
+}
+
+.plog-post-item h5 {
+  font-weight: 700;
+  margin: 30px 0 20px 0;
+}
+
+.plog-post-item p {
+  font-size: 14px;
+}
+
+.blog-post-item-img {
+  width: 100%;
+  height: 250px;
+}
+
+.blog-post-item-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.blog-post-item-activity {
+  margin: 17px 0;
+}
+
+.blog-post-item-activity :first-child {
+  background: #ffbb00;
+  color: #fff;
+}
+
+.blog-post-item-activity :last-child:hover {
+  background: #ffbb00;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: white;
+}
+
+.blog-post-item-activity a {
+  color: white;
+  font-size: 14px;
+  padding: 5px 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 3px;
+  color: #000;
+}
+
+#footer {
+  background: #222;
+  padding: 100px 0;
+}
+
+.footer h5 {
+  color: white;
+  font-weight: 700;
+}
+
+.footer p {
+  color: #8f8f8f;
+  font-size: 14px;
+}
+
+.footer h6 {
+  color: #ffbb00;
+}
+
+.footer input {
+  width: 200px;
+  border: 1px solid #464646;
+  background: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+.footer button {
+  border: 1px solid #464646;
+  padding: 5px 10px;
+  background: #464646;
+  color: #ffbb00;
+  border-radius: 0 3px 3px 0;
+  outline: none;
+}
+
+.soc-newtwork-icons :first-child {
+  margin-left: 0;
+}
+
+.soc-newtwork-icons img {
+  height: 15px;
+  margin-left: 13px;
+}
+/*# sourceMappingURL=style.css.map */
